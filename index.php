@@ -21,10 +21,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Naive Bayes</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <style>
+        
+    </style>
 </head>
 <body>
-    <h3>Penentuan Lokasi Pabrik</h3>
+    <p class="h3 text-center">Penentuan Lokasi Pabrik</p>
+  
     <form action="" method="POST">
         <label for="harga_tanah">Harga Tanah</label>
         <select name="harga_tanah" id="harga_tanah">
@@ -61,6 +69,6 @@
         <button type="submit" name="submit">SUBMIT</button>
     </form>
 
-    <h5>Dipilih: <?= $hasil;?></h5>
+    <p class="h3">Dipilih: <?= $hasil;?></p>
 </body>
 </html>
